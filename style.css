@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* background-color: #0C2D57; */
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #FFB0B0;
+}
+
+h1{
+    color: #FC6736;
+    height: 10vh;
+    font-weight: 2000;
+    text-align: center
+}
+
+h2{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.container{
+    background-color: #EFECEC;
+    border-radius: 30px;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 20vh;
+}
+
+.from{
+    display: fle;
+    justify-content: center;
+    align-items: center;
+}
+
+form button{
+    /* align-content: center; */
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #0C2D57;
+    color: white;
+}
+
+form input{
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+    margin-left: 10px;
+}
+
+form select,input,button{
+    outline: none;
+}
+
+.select{
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+select{
+    border-radius: 15px;
+    margin-left: 4px;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.select img{
+    height: 80px;
+}
+
+i{
+    margin-top: -60px;
+}
+
+label,input{
+    font-size: 20px;
+}
+
+#msg{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
